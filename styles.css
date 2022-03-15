@@ -73,7 +73,7 @@ li {
     padding-bottom: 50px;
 }
 
-button {
+.hero-left button {
     background-color: #3882F6;
     color: #F9FAF8;
     text-align: center;
@@ -97,11 +97,15 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    margin: 50px 0px 50px 0px;
 }
 
 .s1-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 175px;
+    text-align: center;
     font-size: 12px;
 }
 
@@ -130,3 +134,49 @@ button {
  text-align: right;
  padding: 0px 50px 0px 50px;
 }
+
+/* strip 3*/
+.s3 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 100px 50px 100px;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 25px 100px 25px 100px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  
+}
+
+.s3-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+.s3-left h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.s3-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.s3 button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border: solid #E5E7EB;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+/* footer */
