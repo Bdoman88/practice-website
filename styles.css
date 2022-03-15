@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    100vh;
     margin: 0;
     font-family: Cambria, Verdana, sans-serif;
 }
@@ -99,12 +99,34 @@ button {
     gap: 40px;
 }
 
-
-.s1-container img {
-    max-width: 200px;
-    max-height: 200px;
-    border: 5px solid #3882F6;
-    border-radius: 10px;
-    
+.s1-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
 }
 
+.s1-container img {
+    width: 175px;
+    height: 175px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+/* strip 2*/
+
+.s2 {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 100px 200px 100px 200px;
+}
+
+.s2 p {
+ font-style: normal;
+ font-size: 18px;
+ font-weight: 700;
+ text-align: right;
+ padding: 0px 50px 0px 50px;
+}
