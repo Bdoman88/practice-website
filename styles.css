@@ -40,6 +40,7 @@ li {
   justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
+  margin-bottom: 50px;
 }
 
 .hero-title {
@@ -56,9 +57,6 @@ li {
     text-decoration: none;
 }
 
-.hero-text p {
-
-}
 
 .hero-left {
     display: flex;
@@ -69,12 +67,9 @@ li {
     margin-right: 25px;
 }
 
-img{
-    display: flex;
-    flex: 1;
-    max-width: 50%;
-    height: auto;
-    min-height: 100%;
+.hero-container img {
+    max-width: 40%;
+    min-height: 90%;
     padding-bottom: 50px;
 }
 
@@ -87,3 +82,29 @@ button {
     border-radius: 6px;
     font-weight: 700;
 }
+
+/* strip 1 */
+
+.s1-info {
+    color: #1F2937; 
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.s1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.s1-container img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    
+}
+
